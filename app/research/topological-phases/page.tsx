@@ -50,12 +50,12 @@ export default function TopologicalPhases() {
                     <ArrowLeft className="mr-2 h-4 w-4" /> Back to Research
                 </Link>
 
-                <h1 className="text-4xl font-bold text-primary dark:text-white mb-6">Novel Quantum Matter</h1>
+                <h1 className="text-4xl font-bold text-primary dark:text-white mb-6">Novel Quantum Phases of Matter and Materials</h1>
 
                 <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-lg">
                     <Image
                         src={`${basePath}/assets/topology.png`}
-                        alt="Novel Quantum Matter"
+                        alt="Novel Quantum Phases of Matter and Materials"
                         fill
                         className="object-cover"
                     />

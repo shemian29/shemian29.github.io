@@ -7,24 +7,24 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 const researchAreas = [
     {
         id: 'superconducting-circuits',
-        title: 'Superconducting Quantum Processors',
+        title: 'Quantum Computing Hardware Design',
         description: 'Design of superconducting qubits and processors, Floquet engineering, correlated errors, error mitigation and quantum simulation.',
         image: '/assets/superconducting.png',
         link: '/research/superconducting-circuits'
     },
     {
-        id: 'non-equilibrium',
-        title: 'Non-Equilibrium Quantum Systems',
-        description: 'Novel phases in driven quantum systems, non-ergodic systems, quantum many-body scars, and quantum batteries.',
-        image: '/assets/nonequilibrium.png',
-        link: '/research/non-equilibrium'
-    },
-    {
         id: 'topological-phases',
-        title: 'Novel Quantum Matter',
+        title: 'Novel Quantum Phases of Matter and Materials',
         description: 'Topological insulators, topological superconductors, Majorana modes, disorder-induced criticality, and quantum phase transitions.',
         image: '/assets/topology.png',
         link: '/research/topological-phases'
+    },
+    {
+        id: 'non-equilibrium',
+        title: 'Quantum Thermalization and Non-Equilibrium Quantum Systems',
+        description: 'Novel phases in driven quantum systems, non-ergodic systems, quantum many-body scars, and quantum batteries.',
+        image: '/assets/nonequilibrium.png',
+        link: '/research/non-equilibrium'
     }
 ];
 

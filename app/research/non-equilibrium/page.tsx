@@ -43,12 +43,12 @@ export default function NonEquilibrium() {
                     <ArrowLeft className="mr-2 h-4 w-4" /> Back to Research
                 </Link>
 
-                <h1 className="text-4xl font-bold text-primary dark:text-white mb-6">Non-Equilibrium Quantum Systems</h1>
+                <h1 className="text-4xl font-bold text-primary dark:text-white mb-6">Quantum Thermalization and Non-Equilibrium Quantum Systems</h1>
 
                 <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-lg">
                     <Image
                         src={`${basePath}/assets/nonequilibrium.png`}
-                        alt="Non-Equilibrium Quantum Systems"
+                        alt="Quantum Thermalization and Non-Equilibrium Quantum Systems"
                         fill
                         className="object-cover"
                     />

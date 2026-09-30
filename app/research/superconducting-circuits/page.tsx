@@ -43,12 +43,12 @@ export default function SuperconductingCircuits() {
                     <ArrowLeft className="mr-2 h-4 w-4" /> Back to Research
                 </Link>
 
-                <h1 className="text-4xl font-bold text-primary dark:text-white mb-6">Superconducting Quantum Processors</h1>
+                <h1 className="text-4xl font-bold text-primary dark:text-white mb-6">Quantum Computing Hardware Design</h1>
 
                 <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-lg">
                     <Image
                         src={`${basePath}/assets/superconducting.png`}
-                        alt="Superconducting Quantum Processors"
+                        alt="Quantum Computing Hardware Design"
                         fill
                         className="object-cover"
                     />
